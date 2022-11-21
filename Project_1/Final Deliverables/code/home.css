@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+html{
+    scroll-behavior: smooth;
+ }
+body{
+    background: url(https://wallpapercave.com/wp/wp11046524.jpg) no-repeat fixed center;
+    background-size: cover;
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+   
+    
+}
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 450px;
+    height: 420px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%,0%);
+    border-radius: 25px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.3);
+}
+.container .title{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    font-family: 'poppins';
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 125, 82);
+    
+}
+.container .team_details{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 18px;
+    
+}
+#teamid{
+    color: grey;
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.workspace-link{
+    text-align: center;
+    margin-top: 6%;
+}
+.workspace-link a{
+    background-color:rgb(255, 125, 82);
+    font-family: monospace;
+    font-size: 20px;
+    color: #202020;   
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.7);
+}
